@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+          <listener class-name="utilities.ExtentReportUtility"/>
+   </listeners>
+
+  <test name="Test">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="chrome"/>
+    
+    <classes>
+      <class name="testCases.TC101_SignUpTest"/>
+      <class name="testCases.TC102_LoginTest"/>
+      <class name="testCases.TC103_ContactAdditionTest"/>
+      <class name="testCases.TC104_ContactsDisplayTest"/>
+      <class name="testCases.TC105_ContactEditingTest"/>
+      <class name="testCases.TC106_ContactDeleteTest"/>
+      <class name="testCases.TC107_LogoutTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

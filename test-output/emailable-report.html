@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">146,984</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.TC103_ContactAdditionTest</td><td><a href="#m0">duplicateContactList</a></td><td rowspan="1">1735556709858</td><td rowspan="1">11140</td></tr><tr class="failedodd"><td rowspan="1">testCases.TC104_ContactsDisplayTest</td><td><a href="#m1">testPhonenumberwithExtension</a></td><td rowspan="1">1735556739164</td><td rowspan="1">3058</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.TC101_SignUpTest</td><td><a href="#m2">testSignUpRedirection</a></td><td rowspan="1">1735556664285</td><td rowspan="1">4097</td></tr><tr class="passedodd"><td rowspan="2">testCases.TC102_LoginTest</td><td><a href="#m3">testInvalidLogin</a></td><td rowspan="1">1735556680141</td><td rowspan="1">3276</td></tr><tr class="passedodd"><td><a href="#m4">testValidLoginPage</a></td><td rowspan="1">1735556673028</td><td rowspan="1">7113</td></tr><tr class="passedeven"><td rowspan="2">testCases.TC103_ContactAdditionTest</td><td><a href="#m5">testContactListMandatoryfileds</a></td><td rowspan="1">1735556691463</td><td rowspan="1">11626</td></tr><tr class="passedeven"><td><a href="#m6">testContactListoptionalfileds</a></td><td rowspan="1">1735556703091</td><td rowspan="1">6767</td></tr><tr class="passedodd"><td rowspan="1">testCases.TC104_ContactsDisplayTest</td><td><a href="#m7">testContactsAlphabeticalOrder</a></td><td rowspan="1">1735556725574</td><td rowspan="1">13589</td></tr><tr class="passedeven"><td rowspan="2">testCases.TC105_ContactEditingTest</td><td><a href="#m8">TestEmptyfields</a></td><td rowspan="1">1735556766389</td><td rowspan="1">9725</td></tr><tr class="passedeven"><td><a href="#m9">testContactsEditing</a></td><td rowspan="1">1735556746712</td><td rowspan="1">19677</td></tr><tr class="passedodd"><td rowspan="1">testCases.TC106_ContactDeleteTest</td><td><a href="#m10">testContactDelete</a></td><td rowspan="1">1735556781348</td><td rowspan="1">12956</td></tr><tr class="passedeven"><td rowspan="1">testCases.TC107_LogoutTest</td><td><a href="#m11">testLogout</a></td><td rowspan="1">1735556798713</td><td rowspan="1">6863</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">testCases.TC103_ContactAdditionTest#duplicateContactList</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Expected error message for duplicate contact, but got:  expected [true] but found [false]
+	at testCases.TC103_ContactAdditionTest.duplicateContactList(TC103_ContactAdditionTest.java:97)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCases.TC104_ContactsDisplayTest#testPhonenumberwithExtension</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: phone numbers doesn&apos;t have extensions expected [true] but found [false]
+	at testCases.TC104_ContactsDisplayTest.testPhonenumberwithExtension(TC104_ContactsDisplayTest.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testCases.TC101_SignUpTest#testSignUpRedirection</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testCases.TC102_LoginTest#testInvalidLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testCases.TC102_LoginTest#testValidLoginPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testCases.TC103_ContactAdditionTest#testContactListMandatoryfileds</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testCases.TC103_ContactAdditionTest#testContactListoptionalfileds</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testCases.TC104_ContactsDisplayTest#testContactsAlphabeticalOrder</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testCases.TC105_ContactEditingTest#TestEmptyfields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testCases.TC105_ContactEditingTest#testContactsEditing</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">testCases.TC106_ContactDeleteTest#testContactDelete</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">testCases.TC107_LogoutTest#testLogout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,319 @@
+13:13:50.685 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\miniproject2\MiniProject_ContactList-master\Master.xml"
+13:13:50.964 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\miniproject2\MiniProject_ContactList-master\Master.xml
+
+13:13:55.491 [main] INFO  testCases.TC101_SignUpTest - *****TC101_SignUpTest starts****
+13:13:55.555 [main] INFO  testCases.TC101_SignUpTest - Sign Up button is visible
+13:13:55.596 [main] INFO  testCases.TC101_SignUpTest - Sign up button is clickable
+13:13:56.164 [main] INFO  testCases.TC101_SignUpTest - click Sign up button
+13:13:59.190 [main] INFO  testCases.TC101_SignUpTest - ***TC101_SignUpTest Ends*****
+13:14:03.421 [main] INFO  testCases.TC102_LoginTest - *****TC102_LoginTest Starts****
+13:14:03.463 [main] INFO  testCases.TC102_LoginTest - Login button is visible
+13:14:03.514 [main] INFO  testCases.TC102_LoginTest - Login button is clickable
+13:14:03.705 [main] INFO  testCases.TC102_LoginTest - Provided login credentials
+13:14:03.776 [main] INFO  testCases.TC102_LoginTest - click Login button
+13:14:07.396 [main] INFO  testCases.TC102_LoginTest - click logout button
+13:14:10.402 [main] INFO  testCases.TC102_LoginTest - ***TC102_LoginTest Ends*****
+13:14:10.408 [main] INFO  testCases.TC102_LoginTest - Invalid Login Credentials
+13:14:13.600 [main] INFO  testCases.TC102_LoginTest - provided invalid credentials
+13:14:13.677 [main] INFO  testCases.TC102_LoginTest - Not redirected to login page for Invalid credentials
+13:14:17.693 [main] INFO  testCases.TC103_ContactAdditionTest - ******TC103_ContactAdditionTest Starts****
+13:14:17.693 [main] INFO  testCases.TC103_ContactAdditionTest - ......testContactListMandatoryfileds.....
+13:14:17.694 [main] INFO  testCases.TC103_ContactAdditionTest - Home Page
+13:14:17.897 [main] INFO  testCases.TC103_ContactAdditionTest - click login button
+13:14:20.980 [main] INFO  testCases.TC103_ContactAdditionTest - Contact List page
+13:14:21.564 [main] INFO  testCases.TC103_ContactAdditionTest - click add contact
+13:14:26.130 [main] INFO  testCases.TC103_ContactAdditionTest - provided the contact details
+13:14:26.219 [main] INFO  testCases.TC103_ContactAdditionTest - click submit button
+13:14:29.244 [main] INFO  testCases.TC103_ContactAdditionTest - redirected to contact list page
+13:14:29.254 [main] INFO  testCases.TC103_ContactAdditionTest - ....testContactListoptionalfileds.......
+13:14:29.254 [main] INFO  testCases.TC103_ContactAdditionTest - Contact List page
+13:14:29.845 [main] INFO  testCases.TC103_ContactAdditionTest - click add contact
+13:14:36.071 [main] INFO  testCases.TC103_ContactAdditionTest - ....testduplicateContactList.......
+13:14:36.071 [main] INFO  testCases.TC103_ContactAdditionTest - Contact List page
+13:14:36.712 [main] INFO  testCases.TC103_ContactAdditionTest - click add contact
+13:14:39.950 [main] INFO  testCases.TC103_ContactAdditionTest - Provided mandatory files for contact
+13:14:43.036 [main] INFO  testCases.TC103_ContactAdditionTest - Check for duplicate contact error
+13:14:44.148 [main] INFO  testCases.TC103_ContactAdditionTest - click add contact
+13:14:51.564 [main] INFO  testCases.TC104_ContactsDisplayTest - ******TC104_ContactsDisplayTest Starts****
+13:14:51.564 [main] INFO  testCases.TC104_ContactsDisplayTest - ......testContactsAlphabeticalOrder.....
+13:14:51.565 [main] INFO  testCases.TC104_ContactsDisplayTest - Home Page
+13:14:51.750 [main] INFO  testCases.TC104_ContactsDisplayTest - click login button
+13:15:05.173 [main] INFO  testCases.TC104_ContactsDisplayTest - contact details are displayed
+13:15:05.173 [main] INFO  testCases.TC104_ContactsDisplayTest - verify alphabetical order
+13:15:05.290 [main] INFO  testCases.TC104_ContactsDisplayTest - .....testPhonenumberwithExtension.....
+13:15:08.422 [main] INFO  testCases.TC104_ContactsDisplayTest - Phone number having extensions
+13:15:08.422 [main] INFO  testCases.TC104_ContactsDisplayTest - *****TC104_ContactsDisplayTest Ends*****
+13:15:12.444 [main] INFO  testCases.TC105_ContactEditingTest - ******TC105_ContactEditingTest Starts****
+13:15:12.444 [main] INFO  testCases.TC105_ContactEditingTest - ......testContactsEditing.....
+13:15:12.444 [main] INFO  testCases.TC105_ContactEditingTest - Home Page
+13:15:12.632 [main] INFO  testCases.TC105_ContactEditingTest - click login button
+13:15:16.317 [main] INFO  testCases.TC105_ContactEditingTest - click the contact to edit
+13:15:19.354 [main] INFO  testCases.TC105_ContactEditingTest - redirected to contact details Page
+13:15:19.945 [main] INFO  testCases.TC105_ContactEditingTest - click edit contact
+13:15:27.169 [main] INFO  testCases.TC105_ContactEditingTest - Changes Made correctly
+13:15:32.175 [main] INFO  testCases.TC105_ContactEditingTest - .....TestEmptyfields.....
+13:15:35.798 [main] INFO  testCases.TC105_ContactEditingTest - clearing the fields
+13:15:42.050 [main] INFO  testCases.TC105_ContactEditingTest - app doesn't allow to save empty fields
+13:15:42.050 [main] INFO  testCases.TC105_ContactEditingTest - ******TC105_ContactEditingTest ends*****
+13:15:46.156 [main] INFO  testCases.TC106_ContactDeleteTest - ******TC106_ContactDeleteTest Starts****
+13:15:46.156 [main] INFO  testCases.TC106_ContactDeleteTest - ......testContactDelete.....
+13:15:46.156 [main] INFO  testCases.TC106_ContactDeleteTest - Home Page
+13:15:46.346 [main] INFO  testCases.TC106_ContactDeleteTest - click login button
+13:15:49.423 [main] INFO  testCases.TC106_ContactDeleteTest - Contact details Page
+13:15:49.995 [main] INFO  testCases.TC106_ContactDeleteTest - click the contact to delete
+13:15:53.121 [main] INFO  testCases.TC106_ContactDeleteTest - alert pop ups
+13:15:56.144 [main] INFO  testCases.TC106_ContactDeleteTest - ******TC106_ContactDeleteTest Ends****
+13:16:02.972 [main] INFO  testCases.TC107_LogoutTest - ******TC107_LogoutTest Starts****
+13:16:02.972 [main] INFO  testCases.TC107_LogoutTest - ......testLogout.....
+13:16:02.974 [main] INFO  testCases.TC107_LogoutTest - Home Page
+13:16:03.158 [main] INFO  testCases.TC107_LogoutTest - click login button
+13:16:09.992 [main] INFO  testCases.TC107_LogoutTest - logged out
+13:16:09.992 [main] INFO  testCases.TC107_LogoutTest - ******TC107_LogoutTest Ends****
+13:19:58.437 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\miniproject2\MiniProject_ContactList-master\Master.xml"
+13:19:58.732 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\miniproject2\MiniProject_ContactList-master\Master.xml
+
+13:20:03.986 [main] INFO  testCases.TC101_SignUpTest - *****TC101_SignUpTest starts****
+13:20:04.069 [main] INFO  testCases.TC101_SignUpTest - Sign Up button is visible
+13:20:04.117 [main] INFO  testCases.TC101_SignUpTest - Sign up button is clickable
+13:20:04.838 [main] INFO  testCases.TC101_SignUpTest - click Sign up button
+13:20:07.876 [main] INFO  testCases.TC101_SignUpTest - ***TC101_SignUpTest Ends*****
+13:20:13.421 [main] INFO  testCases.TC102_LoginTest - *****TC102_LoginTest Starts****
+13:20:13.486 [main] INFO  testCases.TC102_LoginTest - Login button is visible
+13:20:13.554 [main] INFO  testCases.TC102_LoginTest - Login button is clickable
+13:20:13.777 [main] INFO  testCases.TC102_LoginTest - Provided login credentials
+13:20:13.872 [main] INFO  testCases.TC102_LoginTest - click Login button
+13:20:17.077 [main] INFO  testCases.TC102_LoginTest - Invalid Login Credentials
+13:20:20.384 [main] INFO  testCases.TC102_LoginTest - provided invalid credentials
+13:20:20.496 [main] INFO  testCases.TC102_LoginTest - Not redirected to login page for Invalid credentials
+13:20:26.767 [main] INFO  testCases.TC103_ContactAdditionTest - ******TC103_ContactAdditionTest Starts****
+13:20:26.767 [main] INFO  testCases.TC103_ContactAdditionTest - ......testContactListMandatoryfileds.....
+13:20:26.767 [main] INFO  testCases.TC103_ContactAdditionTest - Home Page
+13:20:27.034 [main] INFO  testCases.TC103_ContactAdditionTest - click login button
+13:20:30.132 [main] INFO  testCases.TC103_ContactAdditionTest - Contact List page
+13:20:45.745 [main] INFO  testCases.TC103_ContactAdditionTest - ....testContactListoptionalfileds.......
+13:20:45.745 [main] INFO  testCases.TC103_ContactAdditionTest - Contact List page
+13:20:45.756 [main] INFO  testCases.TC103_ContactAdditionTest - ....testduplicateContactList.......
+13:20:45.756 [main] INFO  testCases.TC103_ContactAdditionTest - Contact List page
+13:20:50.472 [main] INFO  testCases.TC104_ContactsDisplayTest - ******TC104_ContactsDisplayTest Starts****
+13:20:50.472 [main] INFO  testCases.TC104_ContactsDisplayTest - ......testContactsAlphabeticalOrder.....
+13:20:50.474 [main] INFO  testCases.TC104_ContactsDisplayTest - Home Page
+13:20:56.902 [main] INFO  testCases.TC104_ContactsDisplayTest - .....testPhonenumberwithExtension.....
+13:21:04.326 [main] INFO  testCases.TC105_ContactEditingTest - ******TC105_ContactEditingTest Starts****
+13:21:04.326 [main] INFO  testCases.TC105_ContactEditingTest - ......testContactsEditing.....
+13:21:04.327 [main] INFO  testCases.TC105_ContactEditingTest - Home Page
+13:21:10.620 [main] INFO  testCases.TC105_ContactEditingTest - .....TestEmptyfields.....
+13:21:15.750 [main] INFO  testCases.TC106_ContactDeleteTest - ******TC106_ContactDeleteTest Starts****
+13:21:15.750 [main] INFO  testCases.TC106_ContactDeleteTest - ......testContactDelete.....
+13:21:15.751 [main] INFO  testCases.TC106_ContactDeleteTest - Home Page
+13:21:15.968 [main] INFO  testCases.TC106_ContactDeleteTest - click login button
+13:21:19.070 [main] INFO  testCases.TC106_ContactDeleteTest - Contact details Page
+13:21:24.041 [main] INFO  testCases.TC107_LogoutTest - ******TC107_LogoutTest Starts****
+13:21:24.041 [main] INFO  testCases.TC107_LogoutTest - ......testLogout.....
+13:21:24.041 [main] INFO  testCases.TC107_LogoutTest - Home Page
+13:21:24.240 [main] INFO  testCases.TC107_LogoutTest - click login button
+15:58:19.543 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\miniproject2\MiniProject_ContactList-master\Master.xml"
+15:58:19.795 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\miniproject2\MiniProject_ContactList-master\Master.xml
+
+15:58:24.818 [main] INFO  testCases.TC101_SignUpTest - *****TC101_SignUpTest starts****
+15:58:24.886 [main] INFO  testCases.TC101_SignUpTest - Sign Up button is visible
+15:58:24.926 [main] INFO  testCases.TC101_SignUpTest - Sign up button is clickable
+15:58:25.492 [main] INFO  testCases.TC101_SignUpTest - click Sign up button
+15:58:28.511 [main] INFO  testCases.TC101_SignUpTest - ***TC101_SignUpTest Ends*****
+15:58:33.426 [main] INFO  testCases.TC102_LoginTest - *****TC102_LoginTest Starts****
+15:58:33.470 [main] INFO  testCases.TC102_LoginTest - Login button is visible
+15:58:33.523 [main] INFO  testCases.TC102_LoginTest - Login button is clickable
+15:58:33.713 [main] INFO  testCases.TC102_LoginTest - Provided login credentials
+15:58:33.793 [main] INFO  testCases.TC102_LoginTest - click Login button
+15:58:37.371 [main] INFO  testCases.TC102_LoginTest - click logout button
+15:58:40.377 [main] INFO  testCases.TC102_LoginTest - ***TC102_LoginTest Ends*****
+15:58:40.377 [main] INFO  testCases.TC102_LoginTest - Invalid Login Credentials
+15:58:43.568 [main] INFO  testCases.TC102_LoginTest - provided invalid credentials
+15:58:43.641 [main] INFO  testCases.TC102_LoginTest - Not redirected to login page for Invalid credentials
+15:58:49.321 [main] INFO  testCases.TC103_ContactAdditionTest - ******TC103_ContactAdditionTest Starts****
+15:58:49.321 [main] INFO  testCases.TC103_ContactAdditionTest - ......testContactListMandatoryfileds.....
+15:58:49.321 [main] INFO  testCases.TC103_ContactAdditionTest - Home Page
+15:58:49.507 [main] INFO  testCases.TC103_ContactAdditionTest - click login button
+15:58:52.585 [main] INFO  testCases.TC103_ContactAdditionTest - Contact List page
+15:58:53.147 [main] INFO  testCases.TC103_ContactAdditionTest - click add contact
+15:58:57.670 [main] INFO  testCases.TC103_ContactAdditionTest - provided the contact details
+15:58:57.789 [main] INFO  testCases.TC103_ContactAdditionTest - click submit button
+15:59:00.809 [main] INFO  testCases.TC103_ContactAdditionTest - redirected to contact list page
+15:59:00.810 [main] INFO  testCases.TC103_ContactAdditionTest - ....testContactListoptionalfileds.......
+15:59:00.810 [main] INFO  testCases.TC103_ContactAdditionTest - Contact List page
+15:59:01.373 [main] INFO  testCases.TC103_ContactAdditionTest - click add contact
+15:59:07.557 [main] INFO  testCases.TC103_ContactAdditionTest - ....testduplicateContactList.......
+15:59:07.557 [main] INFO  testCases.TC103_ContactAdditionTest - Contact List page
+15:59:08.109 [main] INFO  testCases.TC103_ContactAdditionTest - click add contact
+15:59:11.338 [main] INFO  testCases.TC103_ContactAdditionTest - Provided mandatory files for contact
+15:59:14.368 [main] INFO  testCases.TC103_ContactAdditionTest - Check for duplicate contact error
+15:59:15.458 [main] INFO  testCases.TC103_ContactAdditionTest - click add contact
+15:59:22.797 [main] INFO  testCases.TC104_ContactsDisplayTest - ******TC104_ContactsDisplayTest Starts****
+15:59:22.797 [main] INFO  testCases.TC104_ContactsDisplayTest - ......testContactsAlphabeticalOrder.....
+15:59:22.799 [main] INFO  testCases.TC104_ContactsDisplayTest - Home Page
+15:59:22.973 [main] INFO  testCases.TC104_ContactsDisplayTest - click login button
+15:59:36.147 [main] INFO  testCases.TC104_ContactsDisplayTest - contact details are displayed
+15:59:36.147 [main] INFO  testCases.TC104_ContactsDisplayTest - verify alphabetical order
+15:59:36.182 [main] INFO  testCases.TC104_ContactsDisplayTest - .....testPhonenumberwithExtension.....
+15:59:43.405 [main] INFO  testCases.TC105_ContactEditingTest - ******TC105_ContactEditingTest Starts****
+15:59:43.405 [main] INFO  testCases.TC105_ContactEditingTest - ......testContactsEditing.....
+15:59:43.405 [main] INFO  testCases.TC105_ContactEditingTest - Home Page
+15:59:43.590 [main] INFO  testCases.TC105_ContactEditingTest - click login button
+15:59:47.236 [main] INFO  testCases.TC105_ContactEditingTest - click the contact to edit
+15:59:50.257 [main] INFO  testCases.TC105_ContactEditingTest - redirected to contact details Page
+15:59:50.787 [main] INFO  testCases.TC105_ContactEditingTest - click edit contact
+15:59:57.968 [main] INFO  testCases.TC105_ContactEditingTest - Changes Made correctly
+16:00:02.987 [main] INFO  testCases.TC105_ContactEditingTest - .....TestEmptyfields.....
+16:00:06.523 [main] INFO  testCases.TC105_ContactEditingTest - clearing the fields
+16:00:12.799 [main] INFO  testCases.TC105_ContactEditingTest - app doesn't allow to save empty fields
+16:00:12.799 [main] INFO  testCases.TC105_ContactEditingTest - ******TC105_ContactEditingTest ends*****
+16:00:16.967 [main] INFO  testCases.TC106_ContactDeleteTest - ******TC106_ContactDeleteTest Starts****
+16:00:16.967 [main] INFO  testCases.TC106_ContactDeleteTest - ......testContactDelete.....
+16:00:16.968 [main] INFO  testCases.TC106_ContactDeleteTest - Home Page
+16:00:17.139 [main] INFO  testCases.TC106_ContactDeleteTest - click login button
+16:00:20.212 [main] INFO  testCases.TC106_ContactDeleteTest - Contact details Page
+16:00:35.554 [main] INFO  testCases.TC107_LogoutTest - ******TC107_LogoutTest Starts****
+16:00:35.554 [main] INFO  testCases.TC107_LogoutTest - ......testLogout.....
+16:00:35.555 [main] INFO  testCases.TC107_LogoutTest - Home Page
+16:00:35.721 [main] INFO  testCases.TC107_LogoutTest - click login button
+16:00:42.378 [main] INFO  testCases.TC107_LogoutTest - logged out
+16:00:42.378 [main] INFO  testCases.TC107_LogoutTest - ******TC107_LogoutTest Ends****
+16:27:49.022 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\miniproject2\MiniProject_ContactList-master\Master.xml"
+16:27:49.257 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\miniproject2\MiniProject_ContactList-master\Master.xml
+
+16:27:53.339 [main] INFO  testCases.TC101_SignUpTest - *****TC101_SignUpTest starts****
+16:27:53.399 [main] INFO  testCases.TC101_SignUpTest - Sign Up button is visible
+16:27:53.439 [main] INFO  testCases.TC101_SignUpTest - Sign up button is clickable
+16:27:54.002 [main] INFO  testCases.TC101_SignUpTest - click Sign up button
+16:27:57.036 [main] INFO  testCases.TC101_SignUpTest - ***TC101_SignUpTest Ends*****
+16:28:01.157 [main] INFO  testCases.TC102_LoginTest - *****TC102_LoginTest Starts****
+16:28:01.197 [main] INFO  testCases.TC102_LoginTest - Login button is visible
+16:28:01.244 [main] INFO  testCases.TC102_LoginTest - Login button is clickable
+16:28:01.415 [main] INFO  testCases.TC102_LoginTest - Provided login credentials
+16:28:01.483 [main] INFO  testCases.TC102_LoginTest - click Login button
+16:28:05.076 [main] INFO  testCases.TC102_LoginTest - click logout button
+16:28:08.077 [main] INFO  testCases.TC102_LoginTest - ***TC102_LoginTest Ends*****
+16:28:08.093 [main] INFO  testCases.TC102_LoginTest - Invalid Login Credentials
+16:28:11.379 [main] INFO  testCases.TC102_LoginTest - provided invalid credentials
+16:28:11.455 [main] INFO  testCases.TC102_LoginTest - Not redirected to login page for Invalid credentials
+16:28:15.424 [main] INFO  testCases.TC103_ContactAdditionTest - ******TC103_ContactAdditionTest Starts****
+16:28:15.424 [main] INFO  testCases.TC103_ContactAdditionTest - ......testContactListMandatoryfileds.....
+16:28:15.425 [main] INFO  testCases.TC103_ContactAdditionTest - Home Page
+16:28:15.597 [main] INFO  testCases.TC103_ContactAdditionTest - click login button
+16:28:18.682 [main] INFO  testCases.TC103_ContactAdditionTest - Contact List page
+16:28:19.286 [main] INFO  testCases.TC103_ContactAdditionTest - click add contact
+16:28:23.852 [main] INFO  testCases.TC103_ContactAdditionTest - provided the contact details
+16:28:23.947 [main] INFO  testCases.TC103_ContactAdditionTest - click submit button
+16:28:26.962 [main] INFO  testCases.TC103_ContactAdditionTest - redirected to contact list page
+16:28:26.962 [main] INFO  testCases.TC103_ContactAdditionTest - ....testContactListoptionalfileds.......
+16:28:26.962 [main] INFO  testCases.TC103_ContactAdditionTest - Contact List page
+16:28:27.518 [main] INFO  testCases.TC103_ContactAdditionTest - click add contact
+16:28:33.767 [main] INFO  testCases.TC103_ContactAdditionTest - ....testduplicateContactList.......
+16:28:33.767 [main] INFO  testCases.TC103_ContactAdditionTest - Contact List page
+16:28:34.364 [main] INFO  testCases.TC103_ContactAdditionTest - click add contact
+16:28:37.644 [main] INFO  testCases.TC103_ContactAdditionTest - Provided mandatory files for contact
+16:28:40.694 [main] INFO  testCases.TC103_ContactAdditionTest - Check for duplicate contact error
+16:28:42.032 [main] INFO  testCases.TC103_ContactAdditionTest - click add contact
+16:28:49.064 [main] INFO  testCases.TC104_ContactsDisplayTest - ******TC104_ContactsDisplayTest Starts****
+16:28:49.064 [main] INFO  testCases.TC104_ContactsDisplayTest - ......testContactsAlphabeticalOrder.....
+16:28:49.065 [main] INFO  testCases.TC104_ContactsDisplayTest - Home Page
+16:28:49.259 [main] INFO  testCases.TC104_ContactsDisplayTest - click login button
+16:29:02.515 [main] INFO  testCases.TC104_ContactsDisplayTest - contact details are displayed
+16:29:02.515 [main] INFO  testCases.TC104_ContactsDisplayTest - verify alphabetical order
+16:29:02.547 [main] INFO  testCases.TC104_ContactsDisplayTest - .....testPhonenumberwithExtension.....
+16:29:09.702 [main] INFO  testCases.TC105_ContactEditingTest - ******TC105_ContactEditingTest Starts****
+16:29:09.702 [main] INFO  testCases.TC105_ContactEditingTest - ......testContactsEditing.....
+16:29:09.703 [main] INFO  testCases.TC105_ContactEditingTest - Home Page
+16:29:09.868 [main] INFO  testCases.TC105_ContactEditingTest - click login button
+16:29:13.553 [main] INFO  testCases.TC105_ContactEditingTest - click the contact to edit
+16:29:16.580 [main] INFO  testCases.TC105_ContactEditingTest - redirected to contact details Page
+16:29:17.164 [main] INFO  testCases.TC105_ContactEditingTest - click edit contact
+16:29:24.355 [main] INFO  testCases.TC105_ContactEditingTest - Changes Made correctly
+16:29:29.382 [main] INFO  testCases.TC105_ContactEditingTest - .....TestEmptyfields.....
+16:29:32.935 [main] INFO  testCases.TC105_ContactEditingTest - clearing the fields
+16:29:39.207 [main] INFO  testCases.TC105_ContactEditingTest - app doesn't allow to save empty fields
+16:29:39.207 [main] INFO  testCases.TC105_ContactEditingTest - ******TC105_ContactEditingTest ends*****
+16:29:43.087 [main] INFO  testCases.TC106_ContactDeleteTest - ******TC106_ContactDeleteTest Starts****
+16:29:43.087 [main] INFO  testCases.TC106_ContactDeleteTest - ......testContactDelete.....
+16:29:43.088 [main] INFO  testCases.TC106_ContactDeleteTest - Home Page
+16:29:43.259 [main] INFO  testCases.TC106_ContactDeleteTest - click login button
+16:29:46.329 [main] INFO  testCases.TC106_ContactDeleteTest - Contact details Page
+16:30:00.648 [main] INFO  testCases.TC107_LogoutTest - ******TC107_LogoutTest Starts****
+16:30:00.648 [main] INFO  testCases.TC107_LogoutTest - ......testLogout.....
+16:30:00.648 [main] INFO  testCases.TC107_LogoutTest - Home Page
+16:30:00.868 [main] INFO  testCases.TC107_LogoutTest - click login button
+16:30:07.571 [main] INFO  testCases.TC107_LogoutTest - logged out
+16:30:07.571 [main] INFO  testCases.TC107_LogoutTest - ******TC107_LogoutTest Ends****
+16:34:18.864 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\miniproject2\MiniProject_ContactList-master\Master.xml"
+16:34:19.147 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\miniproject2\MiniProject_ContactList-master\Master.xml
+
+16:34:24.294 [main] INFO  testCases.TC101_SignUpTest - *****TC101_SignUpTest starts****
+16:34:24.368 [main] INFO  testCases.TC101_SignUpTest - Sign Up button is visible
+16:34:24.416 [main] INFO  testCases.TC101_SignUpTest - Sign up button is clickable
+16:34:25.033 [main] INFO  testCases.TC101_SignUpTest - click Sign up button
+16:34:28.048 [main] INFO  testCases.TC101_SignUpTest - ***TC101_SignUpTest Ends*****
+16:34:33.029 [main] INFO  testCases.TC102_LoginTest - *****TC102_LoginTest Starts****
+16:34:33.078 [main] INFO  testCases.TC102_LoginTest - Login button is visible
+16:34:33.136 [main] INFO  testCases.TC102_LoginTest - Login button is clickable
+16:34:33.345 [main] INFO  testCases.TC102_LoginTest - Provided login credentials
+16:34:33.437 [main] INFO  testCases.TC102_LoginTest - click Login button
+16:34:37.126 [main] INFO  testCases.TC102_LoginTest - click logout button
+16:34:40.141 [main] INFO  testCases.TC102_LoginTest - ***TC102_LoginTest Ends*****
+16:34:40.141 [main] INFO  testCases.TC102_LoginTest - Invalid Login Credentials
+16:34:43.339 [main] INFO  testCases.TC102_LoginTest - provided invalid credentials
+16:34:43.416 [main] INFO  testCases.TC102_LoginTest - Not redirected to login page for Invalid credentials
+16:34:51.465 [main] INFO  testCases.TC103_ContactAdditionTest - ******TC103_ContactAdditionTest Starts****
+16:34:51.465 [main] INFO  testCases.TC103_ContactAdditionTest - ......testContactListMandatoryfileds.....
+16:34:51.465 [main] INFO  testCases.TC103_ContactAdditionTest - Home Page
+16:34:51.683 [main] INFO  testCases.TC103_ContactAdditionTest - click login button
+16:34:54.791 [main] INFO  testCases.TC103_ContactAdditionTest - Contact List page
+16:34:55.363 [main] INFO  testCases.TC103_ContactAdditionTest - click add contact
+16:34:59.972 [main] INFO  testCases.TC103_ContactAdditionTest - provided the contact details
+16:35:00.067 [main] INFO  testCases.TC103_ContactAdditionTest - click submit button
+16:35:03.087 [main] INFO  testCases.TC103_ContactAdditionTest - redirected to contact list page
+16:35:03.091 [main] INFO  testCases.TC103_ContactAdditionTest - ....testContactListoptionalfileds.......
+16:35:03.091 [main] INFO  testCases.TC103_ContactAdditionTest - Contact List page
+16:35:03.662 [main] INFO  testCases.TC103_ContactAdditionTest - click add contact
+16:35:09.858 [main] INFO  testCases.TC103_ContactAdditionTest - ....testduplicateContactList.......
+16:35:09.858 [main] INFO  testCases.TC103_ContactAdditionTest - Contact List page
+16:35:10.446 [main] INFO  testCases.TC103_ContactAdditionTest - click add contact
+16:35:13.708 [main] INFO  testCases.TC103_ContactAdditionTest - Provided mandatory files for contact
+16:35:16.749 [main] INFO  testCases.TC103_ContactAdditionTest - Check for duplicate contact error
+16:35:17.867 [main] INFO  testCases.TC103_ContactAdditionTest - click add contact
+16:35:25.575 [main] INFO  testCases.TC104_ContactsDisplayTest - ******TC104_ContactsDisplayTest Starts****
+16:35:25.575 [main] INFO  testCases.TC104_ContactsDisplayTest - ......testContactsAlphabeticalOrder.....
+16:35:25.576 [main] INFO  testCases.TC104_ContactsDisplayTest - Home Page
+16:35:25.792 [main] INFO  testCases.TC104_ContactsDisplayTest - click login button
+16:35:39.102 [main] INFO  testCases.TC104_ContactsDisplayTest - contact details are displayed
+16:35:39.102 [main] INFO  testCases.TC104_ContactsDisplayTest - verify alphabetical order
+16:35:39.165 [main] INFO  testCases.TC104_ContactsDisplayTest - .....testPhonenumberwithExtension.....
+16:35:46.714 [main] INFO  testCases.TC105_ContactEditingTest - ******TC105_ContactEditingTest Starts****
+16:35:46.714 [main] INFO  testCases.TC105_ContactEditingTest - ......testContactsEditing.....
+16:35:46.714 [main] INFO  testCases.TC105_ContactEditingTest - Home Page
+16:35:46.929 [main] INFO  testCases.TC105_ContactEditingTest - click login button
+16:35:50.597 [main] INFO  testCases.TC105_ContactEditingTest - click the contact to edit
+16:35:53.609 [main] INFO  testCases.TC105_ContactEditingTest - redirected to contact details Page
+16:35:54.175 [main] INFO  testCases.TC105_ContactEditingTest - click edit contact
+16:36:01.379 [main] INFO  testCases.TC105_ContactEditingTest - Changes Made correctly
+16:36:06.389 [main] INFO  testCases.TC105_ContactEditingTest - .....TestEmptyfields.....
+16:36:09.945 [main] INFO  testCases.TC105_ContactEditingTest - clearing the fields
+16:36:16.107 [main] INFO  testCases.TC105_ContactEditingTest - app doesn't allow to save empty fields
+16:36:16.114 [main] INFO  testCases.TC105_ContactEditingTest - ******TC105_ContactEditingTest ends*****
+16:36:21.350 [main] INFO  testCases.TC106_ContactDeleteTest - ******TC106_ContactDeleteTest Starts****
+16:36:21.350 [main] INFO  testCases.TC106_ContactDeleteTest - ......testContactDelete.....
+16:36:21.351 [main] INFO  testCases.TC106_ContactDeleteTest - Home Page
+16:36:21.548 [main] INFO  testCases.TC106_ContactDeleteTest - click login button
+16:36:24.642 [main] INFO  testCases.TC106_ContactDeleteTest - Contact details Page
+16:36:25.188 [main] INFO  testCases.TC106_ContactDeleteTest - click the contact to delete
+16:36:28.276 [main] INFO  testCases.TC106_ContactDeleteTest - alert pop ups
+16:36:31.291 [main] INFO  testCases.TC106_ContactDeleteTest - ******TC106_ContactDeleteTest Ends****
+16:36:38.714 [main] INFO  testCases.TC107_LogoutTest - ******TC107_LogoutTest Starts****
+16:36:38.714 [main] INFO  testCases.TC107_LogoutTest - ......testLogout.....
+16:36:38.714 [main] INFO  testCases.TC107_LogoutTest - Home Page
+16:36:38.926 [main] INFO  testCases.TC107_LogoutTest - click login button
+16:36:45.576 [main] INFO  testCases.TC107_LogoutTest - logged out
+16:36:45.576 [main] INFO  testCases.TC107_LogoutTest - ******TC107_LogoutTest Ends****
